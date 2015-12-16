@@ -1,7 +1,7 @@
 # Chainer SDA MNIST Sample
-Chainer (1.4系) で MNIST (手書き文字認識) データの次元圧縮を題材にして、Stacked Auto-Encoder を実行するサンプルです。
-
-当社技術ブログ「技ラボ」にて概要を公開しています。
+Chainer (1.4系) で MNIST (手書き文字認識) データの次元圧縮を題材にして、Stacked Auto-Encoder を実行するサンプルです。  
+  
+当社技術ブログ「技ラボ」にて概要を公開しています。  
 ( http://wazalabo.com/chainer-stacked-auto-encoder.html )
 
 
@@ -10,15 +10,15 @@ Chainer (1.4系) で MNIST (手書き文字認識) データの次元圧縮を�
 - chainer
 - numpy
 - six
-
+  
 pip コマンドと requirements.txt から簡単にインストールを行うことが出来ます。
 
         $ sudo pip install -r requirements.txt
 
 
 ## データ
-本ソースコードは MNIST データを題材としています。
-MNIST データローダは Chainer のサンプルソースコードを利用しています。
+本ソースコードは MNIST データを題材としています。  
+MNIST データローダは Chainer のサンプルソースコードを利用しています。  
 ( https://github.com/pfnet/chainer/blob/master/examples/mnist/data.py )
 
 
